@@ -18,6 +18,9 @@ Route::get('/', function () {
   return view('home');
 })->name('home');
 
+Route::get('/movies', function () {
+    return view('movies');
+  })->name('movies');
 
 
 

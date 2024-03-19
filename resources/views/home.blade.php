@@ -12,12 +12,10 @@
   <body>
     @include('./partials/header')
     <h1>Ciao</h1>
-    <div style="display:flex;">
-    @foreach ($comics as $c)
-        <p>{{$c['series']}}</p>
-        <img src="{{$c['thumb']}}" alt="{{$c['thumb']}}" style="width: 100px; height: 100px; background-size: cover;">
-    @endforeach
-    </div>
+
+
+
+
     @include('./partials/footer')
   </body>
 
